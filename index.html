@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="file.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="nav-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li id="cart-link"><a href="cart.html">Cart</a><p id="no-of-items"></p></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <img src="images/manyme.png" height="50px" width="100px" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <h1 class="heading">Anime shopping store</h1>
+        <h2 class="sub-heading">Available items</h2>
+
+        <div class="card-wrapper">
+            
+        </div>
+        
+
+    </main>
+
+    <div class="popUp" id="popUp">
+        <div class="overlay" id="overlay" onclick="deactivatePopup()">
+        </div>
+        <div class="inner-pop" id="inner-pop">
+            <h2 style="color: rgb(0, 166, 81);">Item successfully added</h2><br>
+            <img src="./images/success.png" height="120px" width="130px" alt="">
+        </div>
+    </div>
+
+    <footer>
+        Copyright &copy | All Rights Reserved 2022
+    </footer>
+</body>
+</html>
